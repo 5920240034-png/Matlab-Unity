@@ -4,31 +4,22 @@
 Clean My Room!
 
 ## Environment
-- MATLAB Version: R2026b (26.2.0.3386108)
-- Webcam: HP Wide Vision 5MP Camera
+- MATLAB Version: R2025b (25.2.0.2998904)
+- Platform: PCWIN64
 
-## Test Results
+## Verification (executed 2026-11-14)
 | Test | Result |
 |---|---|
-| Computer Vision Toolbox | PASS |
-| Image Processing Toolbox | PASS |
-| Deep Learning Toolbox | PASS |
-| Webcam Detection | PASS |
-| Webcam Frame Acquisition | PASS |
-| MATLAB Graphics | PASS |
-| TCP/IP Support | PASS |
-| Hand Pose Model File | PASS |
-| Hand Pose Detector Loading | PASS |
+| Computer Vision Toolbox | Installed (25.2) |
+| Image Processing Toolbox | Installed (25.2) |
+| Deep Learning Toolbox | Installed (25.2) |
+| jsonencode / jsondecode | PASS (round-trip) |
+| TCP server (127.0.0.1:55001) | PASS (create + close) |
+| MATLAB graphics (plot/axes) | PASS (headless figure) |
 
-## Hand Pose Model
-- Model: hrnet2DHandPose.mat
-- Detector Class: hrnetObjectKeypointDetector
-- Model loaded successfully.
-
-## Conclusion
-All listed MATLAB environment checks completed successfully.
-Webcam frame capture and graphics display were verified.
-Hand pose detection itself was not tested in this report.
+## Notes
+- Camera, webcam and hand-tracking components are no longer part of this project.
+- Functional tests for each issue are recorded separately under Documentation/Testing/.
 
 ## Status
-Environment setup checks: PASSED.
+Environment checks: PASSED (scope limited to the table above).

@@ -1,0 +1,6 @@
+﻿<Solution>
+  <Project Path="CleanMyRoom.Net.csproj" />
+  <Project Path="CleanMyRoom.Tests.Editor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+</Solution>
