@@ -1,0 +1,9 @@
+{
+  "id": "COLOR",
+  "title": "Color Sorting (protocol test fixture)",
+  "objects": [
+    { "id": "object_01", "target": "basket_red" },
+    { "id": "object_02", "target": "basket_blue" }
+  ],
+  "targets": ["basket_red", "basket_blue", "basket_green"]
+}
